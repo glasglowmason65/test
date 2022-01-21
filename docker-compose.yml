@@ -1,0 +1,13 @@
+version: '3.7'
+
+# docker-compose up
+services:
+    # docker-compose kill mtproxy ; docker-compose build mtproxy && docker-compose up mtproxy
+    mtproxy:
+        image: nginx
+        
+ 
+
+# volumes:
+#   workspace:
+#   vscode-server:
